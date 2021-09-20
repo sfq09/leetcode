@@ -19,8 +19,14 @@ namespace ArrayTutorial
             // foreach (var n in DuplicateZeros.GetInPlaceDuplicateZeros(new int[] {1, 0, 2, 3, 0, 4, 5, 0}))   Console.Write(" " + n);
             //foreach (var n in      MergeSortedArray.GetMergeSortedArray(new int[] { 0,1, 2, 3, 5, 0, 0, 0 },5, new int[] { 4,5,6 }, 3 )) Console.Write(" " + n);
             //foreach (var n in    RemoveElement.RemoveElementFromArray(new int[] { 0,1, 2, 3, 5, 0, 0, 0 },0)) Console.Write(" " + n);
-            Console.WriteLine(CheckIfNandItsDoubleExist.CheckIfNandItsDoubleExists(new int[] {-2, 0, 10, -19, 4, 6, -8 }).ToString());
-            
+            //Console.WriteLine(CheckIfNandItsDoubleExist.CheckIfNandItsDoubleExists(new int[] {-2, 0, 10, -19, 4, 6, -8 }).ToString());
+            //Console.WriteLine(ValidMountainArray.CheckValidMountainArray(new int[] { -2, 0, 10, 9 }).ToString());
+            // foreach (var n in ReplaceElementswithGreatestElementonRightSide.ReplaceElements(new int[] { 0,1, 2, 3, 5, 0, 0, 0 })) Console.Write(" " + n);
+            //Console.WriteLine(RemoveElement.RemoveDuplicates(new int[] { 1}).ToString()); // Console.Write(" " + n);
+            //foreach (var n in MoveZeroes.DoMoveZeros(new int[] { 0,1, 2, 3, 5, 0, 0, 0 })) Console.Write(" " + n);
+            // foreach (var n in SortArrayByParity.DoSortArrayByParity(new int[] { 0, 1, 2, 3, 5, 0, 0, 0 })) Console.Write(" " + n);
+            foreach (var n in RemoveElement.RemoveElementImproved(new int[] { 0, 1, 2, 3, 5, 0, 0, 0 },0)) Console.Write(" " + n);
+
             Console.ReadKey();
         }
 
